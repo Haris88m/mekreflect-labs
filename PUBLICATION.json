@@ -1,0 +1,203 @@
+{
+  "publisher": "MEKreflect",
+  "author": "Haris Mekic",
+  "published": "2026-10-16",
+  "scope": "Clean source extracts, provenance and offline tests. No original private histories.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 81,
+      "sha256": "ed0a459a1bb5918561cad71b5c69f19e272c9b4ba60985beefbe00a0d42d63c6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 111,
+      "sha256": "8b2bbd8a4569ef40a0203b271796544ea02c7ba4e5b4e73cbccd05a6e699b139"
+    },
+    {
+      "path": "NOTICES.md",
+      "bytes": 1209,
+      "sha256": "c9e8c609127cb0af0ad1fc5409238ade9342677ddefd31a374b6148a10cb6763"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5229,
+      "sha256": "5acfcb923d0aae216749657842e071fa24136c964e3dd9bdec5bb004e216043a"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1241,
+      "sha256": "487cbdb09e6adf7c7efd837ffc2b4b515c83728c40d09f761ac85e5af17f3e15"
+    },
+    {
+      "path": "creative-tools/.gitignore",
+      "bytes": 48,
+      "sha256": "e429765b7aaedab6566c8613ba9e0c35888116a39be1758cb5509c627217a694"
+    },
+    {
+      "path": "creative-tools/CASE-STUDY.md",
+      "bytes": 2291,
+      "sha256": "e7699725c22c88bdc90bc325b662a161019bb19fa7e51d51b48aca98780e5166"
+    },
+    {
+      "path": "creative-tools/PROVENANCE.md",
+      "bytes": 3313,
+      "sha256": "f569159e6c741272146095dc49c826f3acd7ac987456b22abd431116e3823272"
+    },
+    {
+      "path": "creative-tools/README.md",
+      "bytes": 3632,
+      "sha256": "4b3165d22c2d18b323fa0522fe6c5e57437752c382fd3419e9dcabd9db24e5d0"
+    },
+    {
+      "path": "creative-tools/example.json",
+      "bytes": 203,
+      "sha256": "8609793fc3883945c8d2b93acd5347ea6b8210d244a3911c41ffd220dd4d151f"
+    },
+    {
+      "path": "creative-tools/make_example.py",
+      "bytes": 939,
+      "sha256": "9d727445a8bd50f9c682b7ba8e1d495a7d4a97a4ce25c54e8f249945fb3ad014"
+    },
+    {
+      "path": "creative-tools/render_reel.py",
+      "bytes": 7820,
+      "sha256": "e56bf6a714d36cd16c3cddbaf9504da882ba79434945aa3bad1b17c504493616"
+    },
+    {
+      "path": "creative-tools/requirements.txt",
+      "bytes": 38,
+      "sha256": "7a1146310a96cbdde063fad5771360f904f5253580366ccd407edd81b28a644e"
+    },
+    {
+      "path": "creative-tools/tests/test_render_reel.py",
+      "bytes": 6656,
+      "sha256": "bf2260f46e1038ccdd79431d3071494f6ff7299521cb1199f9f35a922c8b77bc"
+    },
+    {
+      "path": "observer8/.gitignore",
+      "bytes": 70,
+      "sha256": "8b507af820b89448241186f5a14fe740a5f7ea3d63009dc06d691a071fd915ff"
+    },
+    {
+      "path": "observer8/PROVENANCE.json",
+      "bytes": 3858,
+      "sha256": "1f32d60418a7078c8f206bb55a79bad71ef39cfb8deb8e43ddafc0c407d1dbb5"
+    },
+    {
+      "path": "observer8/README.md",
+      "bytes": 10867,
+      "sha256": "a77bd3511f6363ab450798f2c71c738949f7452c1ed5cdab591126e56332c530"
+    },
+    {
+      "path": "observer8/data/recorded-observations.json",
+      "bytes": 3291,
+      "sha256": "2c4aa50cd5f0dce588d9bb715ab517f7f264ae3ecd09cfb5c9eb2977f2171d32"
+    },
+    {
+      "path": "observer8/observer8/__init__.py",
+      "bytes": 61,
+      "sha256": "17f4cabb522f43cb1f2532eb63dbe6bb405c0c29daf2c23b4aec386b3bea9f05"
+    },
+    {
+      "path": "observer8/observer8/__main__.py",
+      "bytes": 4248,
+      "sha256": "ed6d168a7fa4dd3e7d86d80e5f14bd1e1afac6ce7487734cf1b7afaddc90cf44"
+    },
+    {
+      "path": "observer8/observer8/bid_case.py",
+      "bytes": 6694,
+      "sha256": "4c6fae1dc421e7fc39d54f1fa94c4d5fe1a9eac8cc21849d31a9f64b6e2d0a06"
+    },
+    {
+      "path": "observer8/observer8/bid_complex.py",
+      "bytes": 13900,
+      "sha256": "4bdfd5fa6e2e2cfcc3a7fdbb54a15ceeb4a66ac3cd305e1cc9ae8c510526b124"
+    },
+    {
+      "path": "observer8/observer8/bid_handoff.py",
+      "bytes": 2926,
+      "sha256": "ccfde3f17db952cfc3d3c876c1ed598a73b1dcfa59f034b147be1541c1aebdc3"
+    },
+    {
+      "path": "observer8/observer8/bid_readiness.py",
+      "bytes": 9312,
+      "sha256": "79494e4f62b7ee1a83f5d4214df55642044cc4b3365d632f8a95dc441e510011"
+    },
+    {
+      "path": "observer8/observer8/operational.py",
+      "bytes": 12241,
+      "sha256": "83890eccc08eff6371b42e093eafee1da3f95658ad7da40568becfbb74d3cec1"
+    },
+    {
+      "path": "observer8/observer8/strict_json.py",
+      "bytes": 2161,
+      "sha256": "ac2a8a7505dd6ba00653645b900381f4ced5d73c9261079465e79a708df7a480"
+    },
+    {
+      "path": "observer8/tests/test_bid_complex.py",
+      "bytes": 4765,
+      "sha256": "af64d2f465619a6a03ddb07eec377cf80e4cc8888dfb2fde04f6ac247f726326"
+    },
+    {
+      "path": "observer8/tests/test_bid_readiness.py",
+      "bytes": 3083,
+      "sha256": "de064d6d57c7cc3cb6383e3a2196128c1ded9932b4997aa823df866a6c954a2b"
+    },
+    {
+      "path": "observer8/tests/test_operational.py",
+      "bytes": 5705,
+      "sha256": "988b9d35d30d5343bc739e134c2ab608487f743847d16875526b0d5bcd799859"
+    },
+    {
+      "path": "observer8/tests/test_public_lab.py",
+      "bytes": 6502,
+      "sha256": "319ff6b098ff8dc5836f31c7693c840dfc1c21bf34c75da0dfac2c464138d674"
+    },
+    {
+      "path": "operations/.gitignore",
+      "bytes": 30,
+      "sha256": "22bc478fc0eb97818e8c2efd9a6c8f9dce55490bdd8074a3f2b6b8653c5c12d5"
+    },
+    {
+      "path": "operations/PROVENANCE.md",
+      "bytes": 3515,
+      "sha256": "7c14c72c6875f34d8e79f3a87913b2d0caa372c0cba97ce9bbf29fa46473197d"
+    },
+    {
+      "path": "operations/README.md",
+      "bytes": 5570,
+      "sha256": "75852d7746f0678d5ee7f5e581519257b3f7691236ad73da12aed2e4ecac0aa2"
+    },
+    {
+      "path": "operations/career_controls.py",
+      "bytes": 6197,
+      "sha256": "cd5b5f904c90fd1b331ce7fc2d36c4e9a85246448e023215636b3bd2ca1391b7"
+    },
+    {
+      "path": "operations/demo.py",
+      "bytes": 997,
+      "sha256": "edd378ea06db9c6939ae70abce4c211a0540a1c7930f1b50ddc6e3611641be6c"
+    },
+    {
+      "path": "operations/paid-call-control.mjs",
+      "bytes": 1673,
+      "sha256": "5e16abdbaefa6b110447d98d2c44aca7e7d436f48a0911945aab65a8f6295485"
+    },
+    {
+      "path": "operations/paid-call-control.test.mjs",
+      "bytes": 2325,
+      "sha256": "7283efdca06eaed6bea72cd947224a86b21f3b87ae452f7d836830a9d611bbd9"
+    },
+    {
+      "path": "operations/test_career_controls.py",
+      "bytes": 7607,
+      "sha256": "c200ca2abc495015366cb71c583993018d469c454230c691aa2cf446643e5b9f"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1781,
+      "sha256": "74d37c62240c3b05cee943766aab42a6757b9896efc548871596e67b25408c71"
+    }
+  ]
+}

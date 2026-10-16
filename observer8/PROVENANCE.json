@@ -1,0 +1,30 @@
+{
+  "export_date": "2026-10-16",
+  "local_source_root_label": "Simulation-v2-hardening/real-world-v2",
+  "source_repository_base_commit": "eda9ccef731d2e766dfb28299067900ef3fc9c3c",
+  "source_status": "Operational and bidding extension modules/tests were untracked local work at export. Base commit identifies surrounding checkout, not ownership of those files. File hashes identify inspected content.",
+  "separate_private_remote_reviewed_commit": "948354cd6ed4d3cec934253e2e1f36947322b49b",
+  "separate_private_remote_scope": "Simulation possibility-engine README and package metadata reviewed for distinction; no source from that remote is copied here.",
+  "files": [
+    {"path":"observer8/__init__.py","source_relative_path":"observer8/__init__.py","source_sha256":"17f4cabb522f43cb1f2532eb63dbe6bb405c0c29daf2c23b4aec386b3bea9f05","change":"unchanged"},
+    {"path":"observer8/strict_json.py","source_relative_path":"observer8/strict_json.py","source_sha256":"ac2a8a7505dd6ba00653645b900381f4ced5d73c9261079465e79a708df7a480","change":"unchanged"},
+    {"path":"observer8/operational.py","source_relative_path":"observer8/operational.py","source_sha256":"83890eccc08eff6371b42e093eafee1da3f95658ad7da40568becfbb74d3cec1","change":"unchanged"},
+    {"path":"observer8/bid_case.py","source_relative_path":"observer8/bid_case.py","source_sha256":"4c6fae1dc421e7fc39d54f1fa94c4d5fe1a9eac8cc21849d31a9f64b6e2d0a06","change":"unchanged"},
+    {"path":"observer8/bid_handoff.py","source_relative_path":"observer8/bid_handoff.py","source_sha256":"ccfde3f17db952cfc3d3c876c1ed598a73b1dcfa59f034b147be1541c1aebdc3","change":"unchanged"},
+    {"path":"observer8/bid_readiness.py","source_relative_path":"observer8/bid_readiness.py","source_sha256":"79494e4f62b7ee1a83f5d4214df55642044cc4b3365d632f8a95dc441e510011","change":"unchanged"},
+    {"path":"observer8/bid_complex.py","source_relative_path":"observer8/bid_complex.py","source_sha256":"31be060e530a0846c8406291c6ec93aa161f7051638dc687e576c3ec571e56a6","change":"Adds enforcement of the existing contract limit of at most five findings; original fixture and controller mechanisms retained."},
+    {"path":"tests/test_operational.py","source_relative_path":"tests/test_operational.py","source_sha256":"988b9d35d30d5343bc739e134c2ab608487f743847d16875526b0d5bcd799859","change":"unchanged"},
+    {"path":"tests/test_bid_readiness.py","source_relative_path":"tests/test_bid_readiness.py","source_sha256":"de064d6d57c7cc3cb6383e3a2196128c1ded9932b4997aa823df866a6c954a2b","change":"unchanged"},
+    {"path":"tests/test_bid_complex.py","source_relative_path":"tests/test_bid_complex.py","source_sha256":"6089adba7693c0aaadb39613c6271d6929784537211515955e3f75d7d6eb97d3","change":"One test replaces private bid_complex_pilot.prepare fixture generation with public model_packet. Other nine tests unchanged."},
+    {"path":"data/recorded-observations.json","source_relative_path":"MEKreflect/research-site/observer8-readout.json","source_sha256":"2c4aa50cd5f0dce588d9bb715ab517f7f264ae3ecd09cfb5c9eb2977f2171d32","change":"unchanged minimized historical report already used on public research site"}
+  ],
+  "new_release_files": ["observer8/__main__.py","tests/test_public_lab.py","README.md","PROVENANCE.json",".gitignore"],
+  "historical_observation_sources": [
+    "ops-safety/BID_CASE_STUDY.md",
+    "ops-safety/runs/20261016-bid-ai-v1/REPORT-field-guard-v2.md",
+    "ops-safety/runs/20261016-bid-ready-v2/REPORT.md",
+    "ops-safety/runs/20261016-bid-complex-v3/REPORT.md",
+    "ops-safety/runs/20261016-bid-complex-v3/binding-diagnostic-v1/results.json"
+  ],
+  "excluded": ["raw provider/hosted worker transcripts","task identity captures","private client and employer data","credentials and production configuration","complete original Git histories","deployment accounts","large simulation trajectories"]
+}

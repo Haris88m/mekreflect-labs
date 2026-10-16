@@ -1,0 +1,12 @@
+{
+  "format": {
+    "width": 360,
+    "height": 640,
+    "fps": 24,
+    "scene_seconds": 2,
+    "fade_seconds": 0.2,
+    "video_codec": "libx264",
+    "pixel_format": "yuv420p",
+    "audio": false
+  }
+}

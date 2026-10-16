@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+example-output/
+node_modules/
+.env
+.env.*
+*.mp4
+*.png
+*.jpg
+*.zip
