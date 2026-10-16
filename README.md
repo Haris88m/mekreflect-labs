@@ -13,6 +13,8 @@ This repository makes selected parts of that work inspectable. It is part of [ME
 | [OBSERVER8](observer8/) | What survives when context moves between specialist AI workers? | Actual Python evaluator modules, fictional bid cases, source-version checks, readiness and recovery controls. Separate minimized observations from historical hosted-AI experiments. |
 | [Operational controls](operations/) | What must be checked before spending or marking work complete? | Paid-call admission adapted from a TypeScript handler, approved-claim checks, duplicate prevention and a new synthetic receipt-state harness. |
 | [Visual production](creative-tools/) | Can approved images become a repeatable visual explanation? | Source-derived Python/Pillow/FFmpeg renderer, geometric example inputs, isolated temporary workspaces and output-preservation tests. |
+| [Telemetry parser](telemetry-parser/) | Can missing context become a believable but unsupported measurement? | Existing Java conversion code with corrected frame boundaries, synthetic responses and 17 assertions. |
+| [Evidence and expiry gates](evidence-gates/) | When does a reference support a current decision? | Existing source, permission, expiry and quantity gates with nine Node tests and synthetic demonstrations. |
 
 Read the [case studies and source catalogue](https://mekreflect.com/open-research/) for the operational story. If your resolver still serves the former hosting platform during migration, the same company site is at [mekreflect.pages.dev](https://mekreflect.pages.dev/open-research/).
 
@@ -24,7 +26,7 @@ The labs examine particular parts of that idea. They are not a complete producti
 
 ## Run the published checks
 
-Python 3.11 or newer and Node 22 or newer are required. The visual lab also uses the dependencies listed in `creative-tools/requirements.txt`. Use a fresh virtual environment and inspect that file before installation.
+Python 3.11 or newer, Node 22 or newer and a JDK 17 or newer on PATH are required. The visual lab also uses the dependencies listed in `creative-tools/requirements.txt`. Use a fresh virtual environment and inspect that file before installation.
 
 ```sh
 python -m venv .venv
@@ -33,7 +35,7 @@ python -m pip install -r creative-tools/requirements.txt
 python verify.py
 ```
 
-The verification runner checks the published file manifest and runs all three test suites, including a real synthetic video encode/decode. It fails rather than silently skipping a missing dependency. It does not install software or call model providers. Package READMEs contain individual commands and demonstrations. Temporary test outputs are not research evidence from a real client.
+The verification runner checks the published file manifest and runs all five labs, including a real synthetic video encode/decode and Java compilation into a temporary directory. The current suites contain 113 Python/Node tests and 17 Java assertions. It fails rather than silently skipping a missing dependency. It does not install software or call model providers. Package READMEs contain individual commands and demonstrations. Temporary test outputs are not research evidence from a real client.
 
 No GitHub Actions workflow is activated in this release. The commands above are the reproducible local verification route.
 

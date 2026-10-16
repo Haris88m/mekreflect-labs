@@ -21,8 +21,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5229,
-      "sha256": "5acfcb923d0aae216749657842e071fa24136c964e3dd9bdec5bb004e216043a"
+      "bytes": 5795,
+      "sha256": "4a5cbf44ee1e84c2288e8949fd92d94a21ddb652e39ce6cdcaf48b5e9324103a"
     },
     {
       "path": "SECURITY.md",
@@ -73,6 +73,31 @@
       "path": "creative-tools/tests/test_render_reel.py",
       "bytes": 6656,
       "sha256": "bf2260f46e1038ccdd79431d3071494f6ff7299521cb1199f9f35a922c8b77bc"
+    },
+    {
+      "path": "evidence-gates/PROVENANCE.md",
+      "bytes": 947,
+      "sha256": "938c81a8f7f0e40acada4e5c4eb92f430fa1758f1690dbed07e273331ca95b41"
+    },
+    {
+      "path": "evidence-gates/README.md",
+      "bytes": 2330,
+      "sha256": "ca0cc303c2580cfdba3c3bd88d8d00d27d72ab5021a2aed853bec6300510ab62"
+    },
+    {
+      "path": "evidence-gates/availability.mjs",
+      "bytes": 3258,
+      "sha256": "7edeb5d06ac0d43c0a87c67d24a179c507890033bd13506e3e4bc89d1e82e546"
+    },
+    {
+      "path": "evidence-gates/availability.test.mjs",
+      "bytes": 2793,
+      "sha256": "83b2f97ef2c19d5e36ed792bc7459d0630acf3b25ea9dd76a073d519656d04d3"
+    },
+    {
+      "path": "evidence-gates/demo.mjs",
+      "bytes": 603,
+      "sha256": "2538ef3913d780949a2e05625d7377608cb01f137c301ec2d7bf77d4d241fe5d"
     },
     {
       "path": "observer8/.gitignore",
@@ -195,9 +220,39 @@
       "sha256": "c200ca2abc495015366cb71c583993018d469c454230c691aa2cf446643e5b9f"
     },
     {
+      "path": "telemetry-parser/.gitignore",
+      "bytes": 25,
+      "sha256": "0e847b951b27601a750c70ea20926bd66251495be4de3edd618c90f9c2e4a011"
+    },
+    {
+      "path": "telemetry-parser/ObdParser.java",
+      "bytes": 2804,
+      "sha256": "0938f62b7b10ca5bf7a84f6928f02c17f3e859f79eba2971f0bdae112184a9f3"
+    },
+    {
+      "path": "telemetry-parser/PROVENANCE.md",
+      "bytes": 1154,
+      "sha256": "3b5c2c2e3d89fca604f9185e1b95efb4dba2ac04cacfe2c4e7de28b4cf02d238"
+    },
+    {
+      "path": "telemetry-parser/ParserDemo.java",
+      "bytes": 498,
+      "sha256": "eca1f148d1f6d26f1a5fe0c2b7e3a11d3fd0651d17d45206b6dd51da49d80460"
+    },
+    {
+      "path": "telemetry-parser/ParserTest.java",
+      "bytes": 1804,
+      "sha256": "29a10c9649cc9b5fae11b2222938e0c4f1621742cf8192ce47d55b68c280314d"
+    },
+    {
+      "path": "telemetry-parser/README.md",
+      "bytes": 2044,
+      "sha256": "8836d4a7bd9944ee7e68809ab4fa01e1fd5d953dd9b7dbafce1f25c709085f40"
+    },
+    {
       "path": "verify.py",
-      "bytes": 1781,
-      "sha256": "74d37c62240c3b05cee943766aab42a6757b9896efc548871596e67b25408c71"
+      "bytes": 2437,
+      "sha256": "2e11b0eb9d482ceaaeac5deb63b7aa6150247f6ec70694af0fec4170f0f6fa28"
     }
   ]
 }

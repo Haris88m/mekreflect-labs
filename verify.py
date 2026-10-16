@@ -7,6 +7,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+import tempfile
 
 ROOT = Path(__file__).resolve().parent
 
@@ -26,16 +27,24 @@ def main() -> int:
     node = shutil.which("node")
     if not node:
         raise RuntimeError("Node 22 or newer is required; no test was silently skipped")
+    java, javac = shutil.which("java"), shutil.which("javac")
+    if not java or not javac:
+        raise RuntimeError("A JDK 17 or newer must be on PATH; no Java check was silently skipped")
     commands = [
         ("observer8", [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"]),
         ("operations", [node, "--test", "paid-call-control.test.mjs"]),
         ("operations", [sys.executable, "-m", "unittest", "-v", "test_career_controls.py"]),
         ("creative-tools", [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"]),
+        ("evidence-gates", [node, "--test", "availability.test.mjs"]),
     ]
     for folder, command in commands:
         print(f"\nVerifying {folder}", flush=True)
         subprocess.run(command, cwd=ROOT / folder, check=True, timeout=180)
-    print(f"PASS: {len(manifest['files'])} manifest hashes and all four test commands")
+    with tempfile.TemporaryDirectory(prefix="mekreflect-java-") as build:
+        sources = [str(ROOT / "telemetry-parser" / name) for name in ("ObdParser.java", "ParserTest.java", "ParserDemo.java")]
+        subprocess.run([javac, "-d", build, *sources], check=True, timeout=60)
+        subprocess.run([java, "-cp", build, "com.mekreflect.carscan.ParserTest"], check=True, timeout=30)
+    print(f"PASS: {len(manifest['files'])} manifest hashes and all five labs")
     return 0
 
 
